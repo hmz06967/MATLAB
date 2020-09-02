@@ -1,0 +1,14 @@
+clc;
+dizi = [];
+for i=0:1:9
+    for j=0:i
+        if(j<i)
+            dizi = [dizi,3];
+        else
+            dizi = [dizi,1];
+        end;
+        disp(dizi);
+        
+           
+    end
+end
